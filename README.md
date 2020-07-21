@@ -5,13 +5,13 @@ Minimal and formal résumé (CV) website template for print, mobile, and desktop
 
 [Letter Size Demo](https://universal-resume.netlify.app/) | [Multiple Pages Demo](https://universal-resume-pages.netlify.app/) | [A4 Size Demo](https://universal-resume-a4.netlify.app/) | [Mobile Demo](https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.app%2F)
 
-**How to print or save as PDF?**  
+**How to print or save as PDF?**
 In Chrome, Right-click → Print. In Firefox, File → Print. More info [here](#printing).
 
-**Does it support A4 and Letter paper sizes?**  
+**Does it support A4 and Letter paper sizes?**
 Yes. Replace every `-letter` with `-a4`, and uncomment specified code blocks. More info [here](#a4-size-variant).
 
-**Why it’s made?**  
+**Why it’s made?**
 I couldn’t find any formal or professional résumé (CV) website with good typography that is optimized for the Web, print, PDF, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
 
 How to run it
@@ -32,7 +32,7 @@ npm install
 Start the development server:
 
 ```
-npm run serve
+npm start
 ```
 
 Only generate CSS that is used on the page which results in a much smaller file size:
@@ -85,7 +85,7 @@ Printing
 
 ### Chrome
 
-Right-click → Print.  
+Right-click → Print.
 Also, choose the **Save as PDF** option if needed.
 
 By expanding **More Settings**, change **Page Size** to A4 or Letter.
@@ -133,12 +133,12 @@ If you have any question, comment, or issue, please let me know via:
 License
 ---------
 
-NonCommercial-ShareAlike 1.0 Generic (CC NC-SA 1.0)  
+NonCommercial-ShareAlike 1.0 Generic (CC NC-SA 1.0)
 https://creativecommons.org/licenses/nc-sa/1.0/
 
 ### You are free to:
 
-Share — copy and redistribute the material in any medium or format  
+Share — copy and redistribute the material in any medium or format
 
 Adapt — remix, transform, and build upon the material
 

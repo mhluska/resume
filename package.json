@@ -13,7 +13,7 @@
   "license": "NonCommercial-ShareAlike 1.0 Generic",
   "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
+    "start": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
     "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
   },
   "dependencies": {
